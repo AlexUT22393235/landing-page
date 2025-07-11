@@ -33,8 +33,8 @@ export default function Home() {
         loaded ? 'opacity-100' : 'opacity-0 translate-y-4'
       }`}>
         <h1 className="text-6xl md:text-7xl font-extrabold text-white text-center font-serif tracking-wide px-4 text-shadow-lg cursor-none">
-          "Sé tu mejor versión"
-        </h1>
+  &ldquo;Sé tu mejor versión&rdquo;
+</h1>
         <Link 
   href="/formularioContacto"
   className="absolute mt-[250px] bg-black text-white px-4 py-6 rounded-sm hover:bg-gray-500 cursor-pointer transition-colors duration-200"
