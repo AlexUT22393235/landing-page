@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/src/app/(root)/page",
+      "continue": true
+    },
+    {
+      "src": "/contacto",
+      "dest": "/src/app/formularioContacto/page",
+      "continue": true
+    },
+    {
+      "src": "/paginaPostCorreo",
+      "dest": "/src/app/paginaPostCorreo/page",
+      "continue": true
+    },
+    {
+      "src": "/terminos",
+      "dest": "/src/app/Terminos/page",
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/src/app/not-found"  
+    }
+  ]
+}
